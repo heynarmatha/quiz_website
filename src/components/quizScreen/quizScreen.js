@@ -250,7 +250,7 @@ const QuizScreen = ({ questions }) => {
               style={{
                 marginRight: "20px",
                 backgroundColor:
-                  userAnswer === "" ? "rgba(128, 128, 128, 0.826)" : "",
+                  userAnswer === "" ? "rgba(128, 128, 128, 0.826)" : "#db2141",
               }}
               disabled={userAnswer === ""}
             >
