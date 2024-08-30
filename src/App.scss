@@ -1,0 +1,20 @@
+.buttonRed {
+  background-color: #db2141;
+  border: unset;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+.buttonBlue {
+  background-color: rgba(8, 136, 8, 0.928);
+  border: unset;
+  color: white;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.buttonDisabled {
+  background-color: rgba(128, 128, 128, 0.826);
+}

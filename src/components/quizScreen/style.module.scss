@@ -1,0 +1,88 @@
+.quizScreenContainer {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  background-color: whitesmoke;
+  flex-direction: column;
+  .questionsContainer {
+    border: 1px solid black;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 6rem;
+    h3 {
+      font-size: 18px;
+      margin-bottom: 2rem;
+    }
+  }
+  .optionContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    border: 1px solid black;
+    padding: 20px 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    input {
+      margin-right: 15px;
+    }
+  }
+  .timer {
+    color: rgb(6, 125, 6);
+    font-weight: 600;
+  }
+  .timerContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  .feedBackMessageError {
+    color: #db2141;
+    font-weight: 700;
+  }
+  .feedBackMessageSuccess {
+    color: rgb(6, 125, 6);
+    font-weight: 700;
+  }
+  .textInputContainer {
+    input {
+      width: 98.5%;
+      padding: 10px 0 10px 10px;
+      margin-bottom: 20px;
+    }
+  }
+  .successFullyEarn {
+    background-color: #324255be;
+    padding: 30px 20px;
+    border-radius: 8px;
+    @media (min-width: 768px) {
+      width: 50%;
+    }
+    @media (min-width: 1024px) {
+      width: 40%;
+    }
+
+    margin: 10px;
+    margin-top: 5rem;
+    .startSuccess {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+    }
+    h5 {
+      color: white;
+      text-align: center;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+    .buttonContainer {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 4rem;
+    }
+  }
+}
